@@ -1,0 +1,103 @@
+header{background-color:#6b0200; column-count: 2; text-align: left; position: relative; width: 99%;}
+.crp1{position: absolute; top: 150px; column-count: 3; }
+.crp2{position: absolute; top: 130px; column-count: 2;}
+.crp3{position: absolute; top: 150px;}
+
+.btn{
+
+        background-color: #6b0200;
+        border-color: #FFFF;
+        border-radius: 5px;
+        border-width: 3px;
+        width: 150px;
+        height: 30px;
+        align-self: flex-end;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 11px;
+        color: #FFFF;
+        position: relative;
+        top: 20px;    
+}  
+.btn2{
+
+    background-color: #6b0200;
+    border-color: #FFFF;
+    border-radius: 5px;
+    border-width: 3px;
+    width: 150px;
+    height: 30px;
+    align-self: flex-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #FFFF;
+   
+      
+} 
+.div2{text-align: center; }
+.div1{text-align: center; margin-bottom: 130px;}
+.div4{text-align:left; margin-bottom: 130px;}
+.par1{font-size: 20px; font-weight: bold;}
+.tit1{color: #6b0200;}
+.tit2{color: #6b0200; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; margin-left: 100px; }
+.tit3{color: #6b0200; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; margin-right: 400px; }
+.tit4{color: #6b0200; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; margin-left: 490px;}
+.tit5{color: #6b0200; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold; margin-right: 50px;}
+.inp1{height: 50px;}
+
+.form1{text-align: center;}
+.borde{
+    align-content: center;
+    float: left;
+    width: 400px;
+    height: 240px;
+    padding: 40px 20px 20px 40px;
+    border: 1px solid #afacac;
+    background-color: #fffffe;
+    color: #848582;
+    border-radius: 15px;
+    margin-left: 470px;
+    
+}
+.video_1{margin-right: 400px;}
+.crp4{margin-left: 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style-image: url("C:/Users/Doyler Pareja/OneDrive/Documentos/INGENIERIA MULTIMEDIA/4. SEMESTRE IV/PROGRAMACION WEB/ACTIVIDAD 3/nuevoProyecto1/imagenes/chulo.png");}
+footer {
+    background-color: #6b0200;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 40px;
+    color: white;
+  }
+ 
+@media(max-width:480px){
+    .crp1{
+       display:flex; flex-direction: column;
+
+    }
+    .par1{font-size: 15px; font-weight: bold;}
+    .tit1{font-size: 25px ;color: #6b0200;}
+    .video_2{ width: 300; height:240}
+    .imag_1{ width: 350px; height: 450px; align-self:center;}
+
+}
+@media(min-width:1024px){
+    .crp1{
+       display:flex; flex-direction: row;
+     
+
+    }
+    header{width: 100%;}
+    
+}
+@media(min-width:768px){
+    .crp1{
+       display:flex; flex-direction: row;
+     
+
+    }
+    header{width: 100%;}
+    
+}
